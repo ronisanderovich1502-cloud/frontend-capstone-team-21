@@ -23,6 +23,7 @@
     color: #333;
 }
 
+
 @media (max-width: 768px) {
     .features .container {
         grid-template-columns: 1fr;
@@ -62,7 +63,6 @@
     color: #c45b7d;
     line-height: 1;
 }
-
 
 .stat-label {
     font-size: 1.1rem;
