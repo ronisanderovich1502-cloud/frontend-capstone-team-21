@@ -22,3 +22,36 @@
     margin-right: auto;
     color: #333;
 }
+
+@media (max-width: 768px) {
+    .features .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.stats-card {
+    background: white;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(216, 137, 149, 0.2);
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    color: #e38fa9;
+}
