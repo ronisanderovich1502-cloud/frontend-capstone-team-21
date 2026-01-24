@@ -7,3 +7,18 @@
     padding: 100px 0;
     text-align: center;
 }
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    color: #e38fa9;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+}
