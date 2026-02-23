@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var appointmentManager = new AppointmentManager();
-   
+  const urlParams = new URLSearchParams(window.location.search);
+    let preSelectedServiceId = urlParams.get('service') || localStorage.getItem('selectedService');
+    
     var preSelectedServiceId = localStorage.getItem('selectedService');
 
     var bookingState = {
